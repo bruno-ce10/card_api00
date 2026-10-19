@@ -3,11 +3,11 @@ from rest_framework.routers import DefaultRouter
 from cars.views import BrandModelViewSet, CarModelViewSet
 
 router = DefaultRouter()
-router.register('brands', BrandModelViewSet) # criando uma rota no sistema /brand
-router.register('cars', CarModelViewSet) # outra rota no sistema /cars
+router.register('brands', BrandModelViewSet)  # criando uma rota no sistema /brand
+router.register('cars', CarModelViewSet)  # outra rota no sistema /cars
 
 urlpatterns = [
-    path('', include(router.urls)), # é o caminho pra acesar as rotas
+    path('', include(router.urls)),  # é o caminho pra acesar as rotas
 ]
 
 # models, urls, views e serializers se comunicam um com outro pra criar o API
