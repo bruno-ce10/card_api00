@@ -8,23 +8,24 @@ O projeto permite realizar operações de cadastro, consulta, atualização e ex
 
 ## 📌 Sobre o projeto
 
-A Cars API foi desenvolvida para praticar a criação de APIs REST utilizando Django REST Framework, trabalhando com modelos, serialização de dados, rotas, autenticação e permissões.
+## 📌 Sobre o projeto
 
-A aplicação utiliza SQLite como banco de dados e disponibiliza endpoints para o gerenciamento de marcas e carros.
+A Cars API é uma API REST desenvolvida com Python, Django e Django REST Framework para o gerenciamento de marcas e carros.
 
----
+O projeto conta com uma área administrativa do Django, que permite cadastrar, consultar, editar e excluir registros de marcas e carros. Também utiliza autenticação JWT, filtros, paginação e controle de permissões para organizar o acesso aos recursos da API.
+
+A aplicação utiliza SQLite para armazenar os dados.
 
 ## 🚀 Funcionalidades
 
-- 🏷️ Gerenciamento de marcas
-- 🚘 Gerenciamento de carros
+- 🏷️ Cadastro e gerenciamento de marcas
+- 🚘 Cadastro e gerenciamento de carros
 - 🔐 Autenticação com tokens JWT
 - 🛡️ Controle de permissões de acesso
 - 🔎 Filtragem de registros
 - 📄 Paginação de resultados
 - 💾 Armazenamento de dados com SQLite
-
----
+- ⚙️ Área administrativa para gerenciamento dos registros
 
 ## 🛠️ Tecnologias utilizadas
 
