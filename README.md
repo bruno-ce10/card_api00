@@ -78,7 +78,7 @@ git clone https://github.com/bruno-ce10/card_api00
 ### 2. Acesse a pasta do projeto
 
 ```bash
-cd cars_api
+cd cars_api00
 ```
 
 ### 3. Crie um ambiente virtual
