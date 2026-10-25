@@ -73,7 +73,7 @@ cars_api/
 ### 1. Clone o repositório
 
 ```bash
-git clone URL_DO_SEU_REPOSITORIO
+git clone https://github.com/bruno-ce10/card_api00?utm_source=chatgpt.com
 ```
 
 ### 2. Acesse a pasta do projeto
