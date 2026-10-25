@@ -107,11 +107,34 @@ python -m pip install -r requirements.txt
 python manage.py migrate
 ```
 
-### 7. Inicie o servidor
+### 7. Criar um usuário administrador
+
+Para acessar a área administrativa do Django, execute:
+
+```bash
+python manage.py createsuperuser
+```
+
+Preencha as informações solicitadas no terminal para criar o usuário.
+
+### 8. Iniciar o servidor
 
 ```bash
 python manage.py runserver
 ```
+
+### 9. Acessar a área administrativa
+
+Abra o endereço no navegador:
+
+http://127.0.0.1:8000/admin/
+
+Entre com o usuário e a senha criados anteriormente.
+
+Na área administrativa, é possível gerenciar os registros disponibilizados pelo projeto, como carros e marcas.
+
+**Observação:** o servidor de desenvolvimento deve permanecer em execução enquanto a aplicação estiver sendo utilizada localmente.
+
 
 A API estará disponível localmente em:
 
